@@ -1,0 +1,91 @@
+* h1 {
+  padding-bottom: 50px; }
+
+* section {
+  padding-bottom: 25px; }
+
+body #toggle {
+  width: 28px;
+  height: 30px;
+  float: right;
+  margin-right: 100px;
+  margin-top: 46px; }
+
+body #toggle div {
+  width: 100%;
+  height: 5px;
+  background: blue;
+  margin: 4px auto;
+  transition: all 0.3s;
+  backface-visibility: hidden; }
+
+body #toggle.on .one {
+  transform: rotate(45deg) translate(5px, 5px); }
+
+body #toggle.on .two {
+  opacity: 0; }
+
+body #toggle.on .three {
+  transform: rotate(-45deg) translate(7px, -8px); }
+
+body #menu {
+  color: white;
+  width: 523px;
+  height: 95px;
+  padding: 33px;
+  border-radius: 3px;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  line-height: 100px;
+  text-align: center;
+  float: right;
+  display: none; }
+
+#home {
+  background-image: url("../../dist/immaggini/img-body1.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 758px; }
+  #home .mio-menu {
+    position: fixed;
+    width: 1491px; }
+  #home .img-mio-logo img {
+    position: absolute;
+    width: 1518px; }
+
+#info {
+  text-align: center;
+  padding: 100px; }
+
+#me-site {
+  padding-bottom: 125px; }
+
+#numeri {
+  text-align: center;
+  padding: 65px; }
+  #numeri p {
+    font-size: 100px; }
+
+#contact-me {
+  text-align: center; }
+  #contact-me .form-control {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none; }
+  #contact-me .btn-invia {
+    background-color: transparent;
+    border-radius: 38px;
+    width: 161px;
+    height: 49px;
+    margin-bottom: 30px; }
+
+.mio-contatto {
+  margin-bottom: 50px; }
+
+footer {
+  padding-bottom: 25px; }
+  footer .centra {
+    text-align: center; }
+  footer .logo {
+    width: 50px;
+    font-size: 25px; }
